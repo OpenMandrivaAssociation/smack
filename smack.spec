@@ -36,7 +36,7 @@ Release:        %mkrel 0.0.1
 Epoch:          0
 Summary:        Open Source XMPP (Jabber) client library
 
-Group:          Development/Libraries/Java
+Group:          Development/Java
 License:        Apache Software License 2.0
 URL:            http://www.igniterealtime.org/projects/smack/index.jsp
 Source0:        http://www.igniterealtime.org/downloads/download-landing.jsp?file=smack/smack_src_2_2_1.tar.gz
@@ -60,14 +60,14 @@ to simple XMPP integrations such as sending notification messages.
 
 %package        javadoc
 Summary:        Javadoc for %{name}
-Group:          Development/Documentation
+Group:          Development/Java
 
 %description    javadoc
 %{summary}.
 
 %package        manual
 Summary:        Documents for %{name}
-Group:          Development/Documentation
+Group:          Development/Java
 
 %description    manual
 %{summary}.
