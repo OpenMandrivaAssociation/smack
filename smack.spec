@@ -45,6 +45,7 @@ BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildRequires:  jpackage-utils >= 0:1.6
+BuildRequires:  java-rpmbuild
 BuildRequires:  ant >= 0:1.6
 BuildRequires:  ant-contrib >= 0:1.0
 BuildRequires:  junit >= 0:3.8.1
