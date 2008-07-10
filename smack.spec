@@ -49,6 +49,7 @@ BuildRequires:  ant >= 0:1.6
 BuildRequires:  ant-contrib >= 0:1.0
 BuildRequires:  junit >= 0:3.8.1
 BuildRequires:  xpp3
+BuildRequires:  jzlib
 Requires:  xpp3
 
 %description
@@ -74,9 +75,7 @@ Group:          Development/Documentation
 
 %prep
 %setup -q -n %{name}-dev-%{version}
-for j in $(find . -name "*.jar"); do
-   mv $j $j.no
-done
+%remove_java_binaries
 
 %build
 pushd build
