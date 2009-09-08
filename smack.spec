@@ -32,7 +32,7 @@
 
 Name:           smack
 Version:        2.2.1
-Release:        %mkrel 0.0.1
+Release:        %mkrel 0.0.2
 Epoch:          0
 Summary:        Open Source XMPP (Jabber) client library
 
