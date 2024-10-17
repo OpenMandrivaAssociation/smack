@@ -38,7 +38,7 @@ Summary:        Open Source XMPP (Jabber) client library
 
 Group:          Development/Java
 License:        Apache Software License 2.0
-URL:            http://www.igniterealtime.org/projects/smack/index.jsp
+URL:            https://www.igniterealtime.org/projects/smack/index.jsp
 Source0:        http://www.igniterealtime.org/downloads/download-landing.jsp?file=smack/smack_src_2_2_1.tar.gz
 
 BuildArch:      noarch
